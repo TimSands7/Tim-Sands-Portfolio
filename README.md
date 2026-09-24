@@ -1,32 +1,44 @@
 # Tim Sands — Portfolio
 
-A simple static portfolio site. No build step — open `index.html` in a browser, or host it with GitHub Pages.
+A simple static portfolio site. No build step: host it with GitHub Pages or open `index.html` in a browser.
+
+## Editing the site
+
+Open **`edit.html`** on your live site (e.g. `https://timsands7.github.io/Tim-Sands-Portfolio/edit.html`).
+
+In the editor you can:
+- write each project's title, summary, tags and introduction
+- add a caption to any photo, and add text sections between photos to tell the story
+- drag photos and text into any order (or use the arrows)
+- make a photo full width or half width (half-width photos sit side by side)
+- pick the cover photo, remove photos, or add ones from "Unused photos"
+- reorder the projects on the home page
+
+Edits save in your browser as you go. Click **Preview** to see the real page with your edits.
+
+To publish, click **Publish…** then **Download projects.js**, and upload that file to the `js` folder on GitHub
+(**Add file → Upload files**, then **Commit changes**). The site updates within a couple of minutes.
 
 ## Structure
 
 ```
 index.html            Home page: name + project menu on the left, project grid on the right
-project.html          Project detail page (project.html?id=<project-id>)
-css/style.css         All styling (colours are defined at the top)
-js/projects.js        Project list — edit this to add or change projects
-js/main.js            Renders the menu, grid and detail pages
+project.html          Project story page (project.html?id=<project-id>)
+edit.html             Site editor (not linked from the site)
+js/projects.js        All project text, captions and photo order (written by the editor)
+js/main.js            Renders the public pages
+js/editor.js          The editor
+css/style.css         Site styling (colours are defined at the top)
+css/editor.css        Editor styling
 images/projects/<id>/ One folder per project for its photos
 ```
 
-## Adding photos
+## Adding new photos
 
-Put images in the project's folder, e.g. `images/projects/project-one/`:
-
-- `cover.jpg` — the main picture shown on the home page and at the top of the detail page
-- `1.jpg`, `2.jpg`, ... — extra pictures for the detail page gallery (list them under `gallery` in `js/projects.js`)
-
-Until an image exists, a grey placeholder is shown in its place.
-
-## Adding a project
-
-1. Copy one of the entries in `js/projects.js` and give it a new `id`, `title`, `summary` and `description`.
-2. Create `images/projects/<id>/` and add a `cover.jpg`.
+Photos need to be converted and resized for the web (iPhone `.HEIC` photos don't show in most browsers,
+and GitHub's website rejects files over 25 MB). Upload the originals to a GitHub release and ask Claude
+to add them. They'll appear under "Unused photos" in the editor, ready to place.
 
 ## Hosting on GitHub Pages
 
-Repo **Settings → Pages → Deploy from a branch**, choose the branch and `/ (root)`.
+Repo **Settings → Pages → Deploy from a branch**, choose `main` and `/ (root)`.

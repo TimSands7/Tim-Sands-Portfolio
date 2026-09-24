@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Site Editor — Tim Sands</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/editor.css">
+</head>
+<body class="editor">
+  <header class="ed-bar">
+    <div class="ed-bar-title">
+      <strong>Site editor</strong>
+      <span class="ed-status" id="ed-status"></span>
+    </div>
+    <div class="ed-bar-actions">
+      <button type="button" class="ed-btn" id="ed-preview">Preview</button>
+      <button type="button" class="ed-btn primary" id="ed-publish">Publish…</button>
+    </div>
+  </header>
+
+  <div class="ed-notice" id="ed-notice" hidden></div>
+
+  <div class="ed-layout">
+    <aside class="ed-side">
+      <h2 class="ed-label">Projects</h2>
+      <ul class="ed-projects" id="ed-projects"></ul>
+      <p class="ed-hint">The order here is the order on your home page.</p>
+    </aside>
+    <main class="ed-main" id="ed-main"></main>
+  </div>
+
+  <dialog class="ed-dialog" id="ed-dialog">
+    <h2>Publish your changes</h2>
+    <ol>
+      <li>Click <strong>Download projects.js</strong> below.</li>
+      <li>On GitHub, open your repo's <strong>js</strong> folder and click <strong>Add file → Upload files</strong>.</li>
+      <li>Drag in the downloaded <code>projects.js</code> file (it replaces the old one) and click <strong>Commit changes</strong>.</li>
+    </ol>
+    <p>Your site updates within a couple of minutes. Your edits stay saved in this browser, so you can keep editing afterwards.</p>
+    <div class="ed-dialog-actions">
+      <button type="button" class="ed-btn primary" id="ed-download">Download projects.js</button>
+      <button type="button" class="ed-btn" id="ed-copy">Copy as text</button>
+      <button type="button" class="ed-btn" id="ed-close">Close</button>
+    </div>
+    <hr>
+    <button type="button" class="ed-link danger" id="ed-reset">Discard all my edits and start from the published site</button>
+  </dialog>
+
+  <script src="js/projects.js"></script>
+  <script src="js/editor.js"></script>
+</body>
+</html>
