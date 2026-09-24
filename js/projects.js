@@ -15,55 +15,124 @@
  */
 const PROJECTS = [
   {
-    id: "project-one",
-    title: "Project One",
-    summary: "A short one-line summary of the project.",
+    id: "motorcycle-restoration",
+    title: "Motorcycle Restoration & Resale",
+    summary: "",
     description: [
-      "Describe what the project is, why you built it, and the problem it solves.",
-      "Talk about the approach you took, the tools you used, and anything you learned or would do differently."
-    ],
-    tags: ["Tool A", "Tool B", "Skill C"],
-    cover: "images/projects/project-one/cover.jpg",
-    gallery: [
-      "images/projects/project-one/1.jpg",
-      "images/projects/project-one/2.jpg"
-    ],
-    links: [{ label: "GitHub", url: "#" }]
-  },
-  {
-    id: "project-two",
-    title: "Project Two",
-    summary: "A short one-line summary of the project.",
-    description: [
-      "Describe what the project is, why you built it, and the problem it solves."
-    ],
-    tags: ["Tool A", "Tool D"],
-    cover: "images/projects/project-two/cover.jpg",
-    gallery: [],
-    links: []
-  },
-  {
-    id: "project-three",
-    title: "Project Three",
-    summary: "A short one-line summary of the project.",
-    description: [
-      "Describe what the project is, why you built it, and the problem it solves."
-    ],
-    tags: ["Skill E"],
-    cover: "images/projects/project-three/cover.jpg",
-    gallery: [],
-    links: []
-  },
-  {
-    id: "project-four",
-    title: "Project Four",
-    summary: "A short one-line summary of the project.",
-    description: [
-      "Describe what the project is, why you built it, and the problem it solves."
+      "Project details coming soon."
     ],
     tags: [],
-    cover: "images/projects/project-four/cover.jpg",
-    gallery: [],
+    cover: "images/projects/motorcycle-restoration/cover.jpg",
+    gallery: [
+      "images/projects/motorcycle-restoration/1.jpg",
+      "images/projects/motorcycle-restoration/2.jpg",
+      "images/projects/motorcycle-restoration/3.jpg",
+      "images/projects/motorcycle-restoration/4.jpg",
+      "images/projects/motorcycle-restoration/5.jpg",
+      "images/projects/motorcycle-restoration/6.jpg",
+      "images/projects/motorcycle-restoration/7.jpg",
+      "images/projects/motorcycle-restoration/8.jpg",
+      "images/projects/motorcycle-restoration/9.jpg",
+      "images/projects/motorcycle-restoration/10.jpg",
+      "images/projects/motorcycle-restoration/11.jpg",
+      "images/projects/motorcycle-restoration/12.jpg",
+      "images/projects/motorcycle-restoration/13.jpg",
+      "images/projects/motorcycle-restoration/14.jpg",
+      "images/projects/motorcycle-restoration/15.jpg",
+      "images/projects/motorcycle-restoration/16.jpg",
+      "images/projects/motorcycle-restoration/17.jpg",
+      "images/projects/motorcycle-restoration/18.jpg"
+    ],
+    links: []
+  },
+  {
+    id: "tacoma-build",
+    title: "3rd Gen Tacoma Build",
+    summary: "",
+    description: [
+      "Project details coming soon."
+    ],
+    tags: [],
+    cover: "images/projects/tacoma-build/cover.jpg",
+    gallery: [
+      "images/projects/tacoma-build/1.jpg",
+      "images/projects/tacoma-build/2.jpg",
+      "images/projects/tacoma-build/3.jpg",
+      "images/projects/tacoma-build/4.jpg",
+      "images/projects/tacoma-build/5.jpg",
+      "images/projects/tacoma-build/6.jpg",
+      "images/projects/tacoma-build/7.jpg",
+      "images/projects/tacoma-build/8.jpg",
+      "images/projects/tacoma-build/9.jpg",
+      "images/projects/tacoma-build/10.jpg",
+      "images/projects/tacoma-build/11.jpg",
+      "images/projects/tacoma-build/12.jpg",
+      "images/projects/tacoma-build/13.jpg",
+      "images/projects/tacoma-build/14.jpg",
+      "images/projects/tacoma-build/15.jpg",
+      "images/projects/tacoma-build/16.jpg",
+      "images/projects/tacoma-build/17.jpg",
+      "images/projects/tacoma-build/18.jpg",
+      "images/projects/tacoma-build/19.jpg",
+      "images/projects/tacoma-build/20.jpg"
+    ],
+    links: []
+  },
+  {
+    id: "dh-race-bike",
+    title: "Custom DH Race Bike",
+    summary: "",
+    description: [
+      "Project details coming soon."
+    ],
+    tags: [],
+    cover: "images/projects/dh-race-bike/cover.jpg",
+    gallery: [
+      "images/projects/dh-race-bike/1.jpg",
+      "images/projects/dh-race-bike/2.jpg",
+      "images/projects/dh-race-bike/3.jpg",
+      "images/projects/dh-race-bike/4.jpg",
+      "images/projects/dh-race-bike/5.jpg",
+      "images/projects/dh-race-bike/6.jpg",
+      "images/projects/dh-race-bike/7.jpg",
+      "images/projects/dh-race-bike/8.jpg"
+    ],
+    links: []
+  },
+  {
+    id: "motocross",
+    title: "Motocross",
+    summary: "",
+    description: [
+      "Project details coming soon."
+    ],
+    tags: [],
+    cover: "images/projects/motocross/cover.jpg",
+    gallery: [
+      "images/projects/motocross/1.jpg",
+      "images/projects/motocross/2.jpg",
+      "images/projects/motocross/3.jpg",
+      "images/projects/motocross/4.jpg",
+      "images/projects/motocross/5.jpg",
+      "images/projects/motocross/6.jpg",
+      "images/projects/motocross/7.jpg"
+    ],
+    links: []
+  },
+  {
+    id: "austin-marathon",
+    title: "Austin Marathon",
+    summary: "",
+    description: [
+      "Project details coming soon."
+    ],
+    tags: [],
+    cover: "images/projects/austin-marathon/cover.jpg",
+    gallery: [
+      "images/projects/austin-marathon/1.jpg",
+      "images/projects/austin-marathon/2.jpg",
+      "images/projects/austin-marathon/3.jpg"
+    ],
     links: []
   }
 ];

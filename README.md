@@ -15,7 +15,7 @@ images/projects/<id>/ One folder per project for its photos
 
 ## Adding photos
 
-Put images in the project's folder, e.g. `images/projects/project-one/`:
+Put images in the project's folder, e.g. `images/projects/tacoma-build/`:
 
 - `cover.jpg` — the main picture shown on the home page and at the top of the detail page
 - `1.jpg`, `2.jpg`, ... — extra pictures for the detail page gallery (list them under `gallery` in `js/projects.js`)
