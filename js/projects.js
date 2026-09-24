@@ -253,51 +253,51 @@ const PROJECTS = [
   {
     "id": "dh-race-bike",
     "title": "Custom DH Race Bike",
-    "summary": "",
+    "summary": "Frame-up, high pivot, mullet-wheeled, downhill race mountain bike build.",
     "tags": [],
     "cover": "images/projects/dh-race-bike/cover.jpg",
     "intro": [
-      "Project details coming soon."
+      "Taking on a national downhill race series called for some serious equipment. In order to race to the best of my ability I needed a bike that fit my ergonomics and preferences in every aspect. Therefore, I opted to build my race bike from the frame-up, choosing every component to maximize performance in every aspect. "
     ],
     "story": [
       {
         "photo": "images/projects/dh-race-bike/1.jpg",
-        "caption": "",
+        "caption": "Taking delivery of the frame. The new trek session featured a high-pivot rear suspension linkage, allowing for a rearward axle path which virtually eliminates pedal kickback throughout the suspension cycle.",
         "size": "half"
       },
       {
         "photo": "images/projects/dh-race-bike/2.jpg",
-        "caption": "",
+        "caption": "The build begins.",
         "size": "half"
       },
       {
         "photo": "images/projects/dh-race-bike/3.jpg",
-        "caption": "",
+        "caption": "Opted for full RockShox suspension which allowed for adjustment of high and low speed circuits of compression and rebound. A coil rear shock maximized suppleness while the hydraulic bottom-out system also combatted the linear-nature of the coil.",
         "size": "half"
       },
       {
         "photo": "images/projects/dh-race-bike/4.jpg",
-        "caption": "",
+        "caption": "Full 29in wheel set up was capable, yet burdensome. ",
         "size": "half"
       },
       {
         "photo": "images/projects/dh-race-bike/5.jpg",
-        "caption": "",
+        "caption": "Hand built a 27.5in rear wheel around an extremely durable DT Swiss aluminum rim to allow for a \"mullet\" set up. The 29in wheel up front retained the roll-over capability while the 27.5in wheel in the back made for a more playful back end.",
         "size": "half"
       },
       {
         "photo": "images/projects/dh-race-bike/6.jpg",
-        "caption": "",
+        "caption": "The finalized set up. ",
         "size": "half"
       },
       {
         "photo": "images/projects/dh-race-bike/7.jpg",
-        "caption": "",
+        "caption": "First category win on this bike at a national race despite getting a flat-tire mid-race run.",
         "size": "half"
       },
       {
         "photo": "images/projects/dh-race-bike/8.jpg",
-        "caption": "",
+        "caption": "Second place in my category at the U.S. Open of mountain biking. ",
         "size": "half"
       }
     ],
