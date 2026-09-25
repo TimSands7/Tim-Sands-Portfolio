@@ -198,7 +198,7 @@ const PROJECTS = [
       },
       {
         "photo": "images/projects/tacoma-build/10.jpg",
-        "caption": "First camping trip! Made it out to PA for a race weekend and got to test out my DIY bed camping set up.",
+        "caption": "First camping trip! Made it out to PA for a race weekend and got to test out my DIY bed camping setup.",
         "size": "half"
       },
       {
@@ -317,17 +317,17 @@ const PROJECTS = [
       },
       {
         "photo": "images/projects/dh-race-bike/4.jpg",
-        "caption": "Full 29in wheel set up was capable, yet burdensome. ",
+        "caption": "Full 29in wheel setup was capable, yet burdensome. ",
         "size": "half"
       },
       {
         "photo": "images/projects/dh-race-bike/5.jpg",
-        "caption": "Hand built a 27.5in rear wheel around an extremely durable DT Swiss aluminum rim to allow for a \"mullet\" set up. The 29in wheel up front retained the roll-over capability while the 27.5in wheel in the back made for a more playful back end.",
+        "caption": "Hand built a 27.5in rear wheel around an extremely durable DT Swiss aluminum rim to allow for a \"mullet\" setup. The 29in wheel up front retained the roll-over capability while the 27.5in wheel in the back made for a more playful back end.",
         "size": "half"
       },
       {
         "photo": "images/projects/dh-race-bike/6.jpg",
-        "caption": "The finalized set up. A flip chip in the linkage maintained geometry numbers by compensating for the difference of the 27.5in rear wheel.",
+        "caption": "The finalized setup. A flip chip in the linkage maintained geometry numbers by compensating for the difference of the 27.5in rear wheel.",
         "size": "half"
       },
       {
