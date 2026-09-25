@@ -150,7 +150,7 @@
       return;
     }
 
-    document.title = project.title + " — Tim Sands";
+    document.title = project.title + " — Timothy Sands";
     detail.appendChild(el("h1", "detail-title", project.title));
 
     if (project.tags && project.tags.length) {
@@ -203,7 +203,17 @@
     if (lightboxPhotos.length) buildLightbox();
   }
 
+  // Show the resume button only once resume.pdf has been uploaded.
+  function renderResumeLink() {
+    const link = document.getElementById("resume-link");
+    if (!link) return;
+    fetch(link.getAttribute("href"), { method: "HEAD" })
+      .then(function (res) { if (res.ok) link.hidden = false; })
+      .catch(function () { /* leave hidden */ });
+  }
+
   renderPreviewBanner();
+  renderResumeLink();
   renderMenu();
   renderGrid();
   renderDetail();

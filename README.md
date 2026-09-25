@@ -1,4 +1,4 @@
-# Tim Sands — Portfolio
+# Timothy Sands — Portfolio
 
 A simple static portfolio site. No build step: host it with GitHub Pages or open `index.html` in a browser.
 
