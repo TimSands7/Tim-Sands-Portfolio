@@ -16,8 +16,8 @@ In the editor you can:
 
 Edits save in your browser as you go. Click **Preview** to see the real page with your edits.
 
-To publish, click **Publish…** then **Download projects.js**, and upload that file to the `js` folder on GitHub
-(**Add file → Upload files**, then **Commit changes**). The site updates within a couple of minutes.
+To publish, click **Publish…** → **Copy my changes** → **Open projects.js on GitHub**, then select all the text in the
+file, paste, and click **Commit changes**. The site updates within a couple of minutes.
 
 ## Structure
 

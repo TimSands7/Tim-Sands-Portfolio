@@ -65,6 +65,8 @@ body.editor { background: #fafafa; }
 }
 
 .ed-btn:hover { border-color: var(--text); }
+a.ed-btn { display: inline-block; text-decoration: none; }
+.ed-dialog kbd { font: inherit; font-size: 0.8rem; padding: 1px 5px; border: 1px solid var(--line); border-radius: 4px; }
 .ed-btn.primary { background: var(--text); border-color: var(--text); color: #fff; }
 .ed-btn.primary:hover { background: #333; }
 .ed-btn.small { font-size: 0.78rem; padding: 4px 9px; }
