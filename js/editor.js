@@ -403,7 +403,7 @@
     const btn = $("ed-copy");
     const done = function () {
       btn.textContent = "Copied";
-      setTimeout(function () { btn.textContent = "Copy as text"; }, 1500);
+      setTimeout(function () { btn.textContent = "Copy my changes"; }, 1500);
     };
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(exportText()).then(done, fallback);

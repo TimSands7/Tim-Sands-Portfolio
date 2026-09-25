@@ -37,16 +37,19 @@
   <dialog class="ed-dialog" id="ed-dialog">
     <h2>Publish your changes</h2>
     <ol>
-      <li>Click <strong>Download projects.js</strong> below.</li>
-      <li>On GitHub, open your repo's <strong>js</strong> folder and click <strong>Add file → Upload files</strong>.</li>
-      <li>Drag in the downloaded <code>projects.js</code> file (it replaces the old one) and click <strong>Commit changes</strong>.</li>
+      <li>Click <strong>Copy my changes</strong>.</li>
+      <li>Click <strong>Open projects.js on GitHub</strong>. It opens the file ready to edit.</li>
+      <li>Click inside the file, select everything (<kbd>Ctrl</kbd>+<kbd>A</kbd>, or <kbd>⌘</kbd>+<kbd>A</kbd> on a Mac) and paste (<kbd>Ctrl</kbd>+<kbd>V</kbd> / <kbd>⌘</kbd>+<kbd>V</kbd>).</li>
+      <li>Click <strong>Commit changes…</strong>, then <strong>Commit changes</strong> again.</li>
     </ol>
     <p>Your site updates within a couple of minutes. Your edits stay saved in this browser, so you can keep editing afterwards.</p>
     <div class="ed-dialog-actions">
-      <button type="button" class="ed-btn primary" id="ed-download">Download projects.js</button>
-      <button type="button" class="ed-btn" id="ed-copy">Copy as text</button>
+      <button type="button" class="ed-btn primary" id="ed-copy">Copy my changes</button>
+      <a class="ed-btn" href="https://github.com/TimSands7/Tim-Sands-Portfolio/edit/main/js/projects.js" target="_blank" rel="noopener">Open projects.js on GitHub</a>
       <button type="button" class="ed-btn" id="ed-close">Close</button>
     </div>
+    <p class="ed-hint">Prefer a file? <button type="button" class="ed-link" id="ed-download">Download projects.js</button>.
+      If your browser saves it as “projects (1).js”, rename it to exactly <code>projects.js</code> before uploading, or GitHub adds it as a separate file that the site ignores.</p>
     <hr>
     <button type="button" class="ed-link danger" id="ed-reset">Discard all my edits and start from the published site</button>
   </dialog>

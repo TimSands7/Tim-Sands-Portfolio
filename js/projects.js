@@ -19,101 +19,105 @@ const PROJECTS = [
   {
     "id": "motorcycle-restoration",
     "title": "Motorcycle Restoration & Resale",
-    "summary": "",
-    "tags": [],
+    "summary": "Building a profitable side-hustle restoring sport motorcycles.",
+    "tags": [
+      "Diagnosis",
+      "Wiring",
+      "Engine Work"
+    ],
     "cover": "images/projects/motorcycle-restoration/cover.jpg",
     "intro": [
-      "Project details coming soon."
+      "What is the best way to afford an expensive hobby? Turn it into a business. Start small and scale. Since buying my first sport bike last year, I've owned six more, each with their own set of problems which allowed me to purchase them at a discount from owners who had given up on them. With some elbow grease and analytical thinking, these bikes were brought back to life and flipped for a profit. Diagnosing these issues required learning various procedures to point out the culprit. In doing so, I've developed a strong understanding of how these systems work."
     ],
     "story": [
       {
         "photo": "images/projects/motorcycle-restoration/1.jpg",
-        "caption": "",
+        "caption": "Learning to take off the tank and airbox. First time seeing the heart of the bike.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/2.jpg",
-        "caption": "",
+        "caption": "Old school simplicity. Learned to disassemble the carb rack and restore harmony to the air-fuel mix.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/3.jpg",
-        "caption": "",
+        "caption": "The culprit. Clogged jet ports from stale fuel throwing off the mixture.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/4.jpg",
-        "caption": "",
+        "caption": "First time riding to work.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/5.jpg",
-        "caption": "",
+        "caption": "First sale done!",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/6.jpg",
-        "caption": "",
+        "caption": "Took in a wrecked and neglected GSXR600.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/7.jpg",
-        "caption": "",
+        "caption": "After replacing a rusted tank, clogged fuel pump filter, dry rotted air lines, a cracked front fairing stay, and much more, a fuel injection code arose.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/8.jpg",
-        "caption": "",
+        "caption": "The culprit. The secondary throttle valve actuator has solder joints connecting the pins to the board for the motor. Being mounted to the throttle bodies, they experience high frequency vibration causing them to crack and cut signal to the ECU. After cracking into the case and a quick reflow of the solder joints, signal to the ECU was restored throughout the entire rpm range.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/9.jpg",
-        "caption": "",
+        "caption": "Finished GSXR600.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/10.jpg",
-        "caption": "",
+        "caption": "Very proud with how this bike turned around since day 1.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/11.jpg",
-        "caption": "",
+        "caption": "After learning the GSXR platform, I got another with some simple cosmetic damage I could fix with leftover parts from the previous GSXR.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/12.jpg",
-        "caption": "",
+        "caption": "Quick turn around.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/13.jpg",
-        "caption": "",
+        "caption": "Found a beautiful \"barn-find\" 06 CBR1000RR. Low miles, pristine condition other than some fairing damage from lost heat shielding near the exhaust.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/14.jpg",
-        "caption": "",
+        "caption": "Some new fairings and a fresh front tire and it was ready to go. This was my favorite bike by far and turned my biggest profit to date.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/15.jpg",
-        "caption": "",
+        "caption": "Picked up another GSXR600. This was someone's unfinished track bike project that sat for years. With a clean title, turning it back to street legal was a no brainer.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/16.jpg",
-        "caption": "",
+        "caption": "Replacing the speed sensor and cleaning the gear position sensor restored full functionality and some detailing brought the OEM fairings back to life to make a great example of a nearly stock 20 year old bike.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/17.jpg",
-        "caption": "",
+        "caption": "Picked up a non-running ZX6R as a parts bike. It had great high-quality upgrades but a spun rod bearing caused a piston to come in contact with the spark plug.",
         "size": "half"
       },
       {
         "photo": "images/projects/motorcycle-restoration/18.jpg",
-        "caption": "",
+        "caption": "Found another unfinished track project of the same generation. Swapped the quality parts from one to the other instead of doing a heart transplant and sold the blown-motor bike to my parts dealer to make up some cost. Cosmetic work is under way and results will be posted soon!",
         "size": "half"
       }
     ],
@@ -136,111 +140,115 @@ const PROJECTS = [
   {
     "id": "tacoma-build",
     "title": "3rd Gen Tacoma Build",
-    "summary": "",
-    "tags": [],
+    "summary": "Building my 3rd Generation Toyota Tacoma to be the ultimate off-road capable daily driver.",
+    "tags": [
+      "Fabrication",
+      "Suspension",
+      "Wiring"
+    ],
     "cover": "images/projects/tacoma-build/cover.jpg",
     "intro": [
-      "Project details coming soon."
+      "Everyone gets attached to their first car, but being able to make it truly unique and learn from each project that arose from making that happen has made the connection that much greater. Diving straight into these projects with little experience strongly reinforced my figure-it-out and make-it-happen mindset. This attitude brought me to learn shielded metal arc welding, automotive wiring, and my way around various vehicle systems."
     ],
     "story": [
       {
         "photo": "images/projects/tacoma-build/1.jpg",
-        "caption": "",
+        "caption": "Welcome home. Do all trucks ride like a jeep from the 70s? Lets see what we can do about that.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/2.jpg",
-        "caption": "",
+        "caption": "Tearing into the suspension. Extra leaf springs going in the rear to lift the rear end.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/3.jpg",
-        "caption": "",
+        "caption": "These should help the ride quality. Extended travel to retain the same ratio of up and down travel with the lift.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/4.jpg",
-        "caption": "",
+        "caption": "Rear end done.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/5.jpg",
-        "caption": "",
+        "caption": "Front coil-overs in. Adjusted preload to retain up and down travel ratio with some lift.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/6.jpg",
-        "caption": "",
+        "caption": "Custom reservoir mounts to avoid hitting the axle at full compression.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/7.jpg",
-        "caption": "",
+        "caption": "Adjusting the stance with a small spacer on top of the coil-over.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/8.jpg",
-        "caption": "",
+        "caption": "Stance is dialed.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/9.jpg",
-        "caption": "",
+        "caption": "Wired auxiliary lighting from a front light bar and rear LED pods to OEM-style switches in the cab. ",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/10.jpg",
-        "caption": "",
+        "caption": "First camping trip! Made it out to PA for a race weekend and got to test out my DIY bed camping set up.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/11.jpg",
-        "caption": "",
+        "caption": "Big rubber. Fitting 33s with a two inch wider stance per side on a Tacoma is no easy feat. It required cutting into the cab mount and welding a plate to it to seal it off along with hammering in a pinch weld and molding the fender liner.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/12.jpg",
-        "caption": "",
+        "caption": "Full sized spare setup.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/13.jpg",
-        "caption": "",
+        "caption": "First off-road trip in Vermont!",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/14.jpg",
-        "caption": "",
+        "caption": "The fox suspension makes a world of difference.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/15.jpg",
-        "caption": "",
+        "caption": "The rubber bushings in the stock lower control arms fused, restricting any alignment changes. Ended up having to cut them out of the truck and install these beautiful, fully fabricated Dirt King arms.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/16.jpg",
-        "caption": "",
+        "caption": "Also replaced the stock, circular, alignment cams with octagonal ones to avoid coming out of alignment under high stress.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/17.jpg",
-        "caption": "",
+        "caption": "New bed setup to house a full-sized off-road jack.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/18.jpg",
-        "caption": "",
+        "caption": "Fully flexed.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/19.jpg",
-        "caption": "",
+        "caption": "Fully stuffed.",
         "size": "half"
       },
       {
         "photo": "images/projects/tacoma-build/20.jpg",
-        "caption": "",
+        "caption": "Extremely grateful for the experiences this truck has brought me.",
         "size": "half"
       }
     ],
@@ -251,13 +259,45 @@ const PROJECTS = [
     "links": []
   },
   {
+    "id": "austin-marathon",
+    "title": "Austin Marathon",
+    "summary": "Running the Austin Marathon in support of Dell's Children's Foundation",
+    "tags": [
+      "Philanthropy",
+      "Running"
+    ],
+    "cover": "images/projects/austin-marathon/cover.jpg",
+    "intro": [
+      "I met Jake for the first time on a run. We chatted the entire time and our conversation ended with a commitment I was not planning on making during my first year of college. Despite seeming a little crazy for thinking we can nail a full marathon with 3 months of training, I can't thank Jake and the experience enough for building my discipline and proving that I am only bound by what I set my mind to. In the end, every early morning and late night training or supporting Dell's was worth crossing the finish line."
+    ],
+    "story": [
+      {
+        "photo": "images/projects/austin-marathon/1.jpg",
+        "caption": "Early morning nerves.",
+        "size": "half"
+      },
+      {
+        "photo": "images/projects/austin-marathon/2.jpg",
+        "caption": "In the thick of it now.",
+        "size": "half"
+      },
+      {
+        "photo": "images/projects/austin-marathon/3.jpg",
+        "caption": "Great message to see at the halfway point.",
+        "size": "half"
+      }
+    ],
+    "unused": [],
+    "links": []
+  },
+  {
     "id": "dh-race-bike",
     "title": "Custom DH Race Bike",
     "summary": "Frame-up, high pivot, mullet-wheeled, downhill race mountain bike build.",
     "tags": [],
     "cover": "images/projects/dh-race-bike/cover.jpg",
     "intro": [
-      "Taking on a national downhill race series called for some serious equipment. In order to race to the best of my ability I needed a bike that fit my ergonomics and preferences in every aspect. Therefore, I opted to build my race bike from the frame-up, choosing every component to maximize performance in every aspect. "
+      "Taking on a national downhill race series called for some serious equipment. In order to race to the best of my ability, I needed a bike that fit my ergonomics and preferences in every aspect. Therefore, I opted to build my race bike from the frame-up, choosing every component to maximize performance in every aspect. "
     ],
     "story": [
       {
@@ -272,7 +312,7 @@ const PROJECTS = [
       },
       {
         "photo": "images/projects/dh-race-bike/3.jpg",
-        "caption": "Opted for full RockShox suspension which allowed for adjustment of high and low speed circuits of compression and rebound. A coil rear shock maximized suppleness while the hydraulic bottom-out system also combatted the linear-nature of the coil.",
+        "caption": "Opted for RockShox suspension which allowed for adjustment of high and low speed circuits of compression and rebound. A coil rear shock maximized suppleness while the hydraulic bottom-out system also combatted the linear-nature of the coil.",
         "size": "half"
       },
       {
@@ -287,7 +327,7 @@ const PROJECTS = [
       },
       {
         "photo": "images/projects/dh-race-bike/6.jpg",
-        "caption": "The finalized set up. ",
+        "caption": "The finalized set up. A flip chip in the linkage maintained geometry numbers by compensating for the difference of the 27.5in rear wheel.",
         "size": "half"
       },
       {
@@ -312,75 +352,46 @@ const PROJECTS = [
   {
     "id": "motocross",
     "title": "Motocross",
-    "summary": "",
+    "summary": "Transitioning from MTB to Motocross",
     "tags": [],
     "cover": "images/projects/motocross/cover.jpg",
     "intro": [
-      "Project details coming soon."
+      "After racing enduro and downhill mountain biking for 5 years, I picked up motocross as cross-training. Ironically it has taken up the majority of my athletic focus these days. Keeping the bike running is an undeniable aspect of the sport I've come to learn from and transitioning from a 35-40 pound pedal bike to a 250lb rocket has been a journey."
     ],
     "story": [
       {
         "photo": "images/projects/motocross/1.jpg",
-        "caption": "",
+        "caption": "Few words can describe the sinking in your chest when the bike you bought just a few weeks ago starts spitting steam straight from under you.",
         "size": "half"
       },
       {
         "photo": "images/projects/motocross/2.jpg",
-        "caption": "",
+        "caption": "The culprit. A faulty thermostat refused to circulate coolant after reaching operating temp, causing it to build enough pressure to shoot out the overflow hose. Luckily I caught the issue early enough to not cause any serious damage, other than the smoked reed valve pictured above, and after a new thermostat and reed valve, coolant was circulating perfectly once again.",
         "size": "half"
       },
       {
         "photo": "images/projects/motocross/3.jpg",
-        "caption": "",
+        "caption": "I took the downtime to put on some fresh rubber and the difference it made was incredible. Reached summits I never had before thanks to the new-found traction.",
         "size": "half"
       },
       {
         "photo": "images/projects/motocross/4.jpg",
-        "caption": "",
+        "caption": "Back in South Carolina putting in some hours.",
         "size": "half"
       },
       {
         "photo": "images/projects/motocross/5.jpg",
-        "caption": "",
+        "caption": "Those hours caught up to the suspension. ",
         "size": "half"
       },
       {
         "photo": "images/projects/motocross/6.jpg",
-        "caption": "",
+        "caption": "All new-linkage bearings and shock bushings tightened up the rear suspension along with fully servicing both the shock and forks. Extra support at both ends helped handle some new-found speed.",
         "size": "half"
       },
       {
         "photo": "images/projects/motocross/7.jpg",
-        "caption": "",
-        "size": "half"
-      }
-    ],
-    "unused": [],
-    "links": []
-  },
-  {
-    "id": "austin-marathon",
-    "title": "Austin Marathon",
-    "summary": "",
-    "tags": [],
-    "cover": "images/projects/austin-marathon/cover.jpg",
-    "intro": [
-      "Project details coming soon."
-    ],
-    "story": [
-      {
-        "photo": "images/projects/austin-marathon/1.jpg",
-        "caption": "",
-        "size": "half"
-      },
-      {
-        "photo": "images/projects/austin-marathon/2.jpg",
-        "caption": "",
-        "size": "half"
-      },
-      {
-        "photo": "images/projects/austin-marathon/3.jpg",
-        "caption": "",
+        "caption": "The down-time allowed me to also dial in my ergonomics on the bike. A new clutch perch and securing securing my grips with safety-wire greatly reduced my fatigue on the bike.",
         "size": "half"
       }
     ],
