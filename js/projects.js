@@ -302,7 +302,7 @@ const PROJECTS = [
     "story": [
       {
         "photo": "images/projects/dh-race-bike/1.jpg",
-        "caption": "Taking delivery of the frame. The new trek session featured a high-pivot rear suspension linkage, allowing for a rearward axle path which virtually eliminates pedal kickback throughout the suspension cycle.",
+        "caption": "Taking delivery of the frame. The new Trek Session featured a high-pivot rear suspension linkage, allowing for a rearward axle path which virtually eliminates pedal kickback throughout the suspension cycle.",
         "size": "half"
       },
       {
