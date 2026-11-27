@@ -322,12 +322,12 @@ const PROJECTS = [
       },
       {
         "photo": "images/projects/dh-race-bike/5.jpg",
-        "caption": "Hand built a 27.5in rear wheel around an extremely durable DT Swiss aluminum rim to allow for a \"mullet\" setup. The 29in wheel up front retained the roll-over capability while the 27.5in wheel in the back made for a more playful back end.",
+        "caption": "Hand built a 27.5in rear wheel around an extremely durable DT Swiss aluminum rim to allow for a \"mullet\" setup. The EX511 rim is known for having a nearly bulletproof profile, and the aluminum offered extra piece of mind knowing it would still hold air after a dent rather than cracking or completely failing with carbon. The smaller diameter also provided the extra stiffness I wanted while retaining optimal spoke tension.",
         "size": "half"
       },
       {
         "photo": "images/projects/dh-race-bike/6.jpg",
-        "caption": "The finalized setup. A flip chip in the linkage maintained geometry numbers by compensating for the difference of the 27.5in rear wheel.",
+        "caption": "The finalized setup. The 29in wheel up front retained the roll-over capability while the 27.5in wheel in the back made for a more playful back end. A flip chip in the linkage maintained geometry numbers by compensating for the difference of the 27.5in rear wheel.",
         "size": "half"
       },
       {
@@ -391,7 +391,7 @@ const PROJECTS = [
       },
       {
         "photo": "images/projects/motocross/7.jpg",
-        "caption": "The down-time allowed me to also dial in my ergonomics on the bike. A new clutch perch and securing securing my grips with safety-wire greatly reduced my fatigue on the bike.",
+        "caption": "The down-time allowed me to also dial in my ergonomics on the bike. A new clutch perch and securing my grips with safety-wire greatly reduced my fatigue on the bike.",
         "size": "half"
       }
     ],
